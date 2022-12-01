@@ -10,3 +10,4 @@ Each scripts function:
 8-James_Bond - sets only other users to have all permissions
 9-John_Doe - sets the mode of file hello to -rwxr-x-wx
 10-mirror_permissions - sets the mode of file hello same as file olleh
+11-directories_permissions - adds execute permission to all subdirectories of the current working directory
