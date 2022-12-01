@@ -6,3 +6,4 @@ Each scripts function:
 4-empty - creates an empty file called hello
 5-execute - add execute permission for owner of file hello
 6-multiple_permissions - adds execute permission to owner and group and read permission to other users
+7-everybody - adds execute permission to owner, group and other users for file hello
