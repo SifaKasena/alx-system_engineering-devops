@@ -9,3 +9,4 @@ Each scripts function:
 7-everybody - adds execute permission to owner, group and other users for file hello
 8-James_Bond - sets only other users to have all permissions
 9-John_Doe - sets the mode of file hello to -rwxr-x-wx
+10-mirror_permissions - sets the mode of file hello same as file olleh
