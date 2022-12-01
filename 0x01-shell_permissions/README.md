@@ -7,3 +7,4 @@ Each scripts function:
 5-execute - add execute permission for owner of file hello
 6-multiple_permissions - adds execute permission to owner and group and read permission to other users
 7-everybody - adds execute permission to owner, group and other users for file hello
+8-James_Bond - sets only other users to have all permissions
