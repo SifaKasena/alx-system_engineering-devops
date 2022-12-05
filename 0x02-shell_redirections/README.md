@@ -7,3 +7,4 @@
 6-third_line - prints the third line of file iacta
 8-cwd_state - write the output of ls -la to file ls_cwd_content
 9-duplicate_last_line - duplicates the last line of file iacta
+12-newest_files - prints the 10 newest files
