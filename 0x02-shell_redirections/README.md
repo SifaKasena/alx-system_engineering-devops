@@ -7,6 +7,7 @@
 6-third_line - prints the third line of file iacta
 8-cwd_state - write the output of ls -la to file ls_cwd_content
 9-duplicate_last_line - duplicates the last line of file iacta
+11-directories - prints the number of directories and subdirectories in current directory
 12-newest_files - prints the 10 newest files
 14-findtahtword - displays all lines containing root from file /etc/passwd
 15-countthatword - pints the number of lines containing 'bin' from file /etc/passwd
