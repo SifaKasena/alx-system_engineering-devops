@@ -10,3 +10,4 @@
 12-newest_files - prints the 10 newest files
 14-findtahtword - displays all lines containing root from file /etc/passwd
 15-countthatword - pints the number of lines containing 'bin' from file /etc/passwd
+17-hidethisword - prints all lines not containing 'bin' from file /etc/passwd
