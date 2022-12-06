@@ -14,6 +14,7 @@
 13-unique - prints words that appear only once
 14-findtahtword - displays all lines containing root from file /etc/passwd
 15-countthatword - pints the number of lines containing 'bin' from file /etc/passwd
+16-whatsnext - prints lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
 17-hidethisword - prints all lines not containing 'bin' from file /etc/passwd
 18-letteronly - prints all lines from file /etc/ssh/sshd_config that begin with a letter
 19-AZ - replaces A and c from input to Z and e respectively
