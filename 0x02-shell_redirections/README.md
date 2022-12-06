@@ -5,6 +5,7 @@
 4-lastlines - prints the last ten lines of file /etc/passwd
 5-firstlines - prints the first ten lines of file /etc/passwd
 6-third_line - prints the third line of file iacta
+7-file - creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School
 8-cwd_state - write the output of ls -la to file ls_cwd_content
 9-duplicate_last_line - duplicates the last line of file iacta
 10-no_more_js - deletes all fileswith .js extension in the current directory and subfolders
