@@ -10,6 +10,7 @@
 10-no_more_js - deletes all fileswith .js extension in the current directory and subfolders
 11-directories - prints the number of directories and subdirectories in current directory
 12-newest_files - prints the 10 newest files
+13-unique - prints words that appear only once
 14-findtahtword - displays all lines containing root from file /etc/passwd
 15-countthatword - pints the number of lines containing 'bin' from file /etc/passwd
 17-hidethisword - prints all lines not containing 'bin' from file /etc/passwd
