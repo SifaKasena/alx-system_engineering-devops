@@ -16,4 +16,5 @@
 17-hidethisword - prints all lines not containing 'bin' from file /etc/passwd
 18-letteronly - prints all lines from file /etc/ssh/sshd_config that begin with a letter
 19-AZ - replaces A and c from input to Z and e respectively
+20-hiago - deletes letters C and c from input
 21-reverse - prints the reverse of the input
