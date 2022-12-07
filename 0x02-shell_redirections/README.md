@@ -21,3 +21,4 @@
 20-hiago - deletes letters C and c from input
 21-reverse - prints the reverse of the input
 22-users_and_homes - prints all users and their home directories, sorted by users
+100-empty_casks - prints the name of empty files and directories
