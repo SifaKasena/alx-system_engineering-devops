@@ -9,4 +9,5 @@
 8-true_knowledge - adds 128 to the environment variable TRUEKNOWLEDGE
 9-divide_and_rule - prints the result of POWER divide by DIVIDE
 10-love_exponent_breath - prints the result of BREATH to the power LOVE
+11-binary_to_decimal - converts environment variable BINARY to a decimal number
 12-combinations - prints all possible combinations of two letters except oo
