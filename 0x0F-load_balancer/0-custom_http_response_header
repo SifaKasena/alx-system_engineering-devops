@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# Install Nginx
+apt update
+apt -y install nginx
+
+service nginx stop
+
+echo 'Hello World!' > /var/www/html/index.html
+echo "Ceci n'est pas une page" > /var/www/html/404.html
+
+echo "server {
+    listen 80;
+    listen [::]:80;
+
+    root /var/www/html;
+    index index.html index.htm index.nginx-debian.html;
+
+    location / {
+        add_header X-Served-By $(hostname);
+        try_files \$uri \$uri/ =404;
+    }
+
+    location /redirect_me {
+        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+    }
+
+    error_page 404 /404.html;
+}" > /etc/nginx/sites-available/default
+
+service nginx restart
