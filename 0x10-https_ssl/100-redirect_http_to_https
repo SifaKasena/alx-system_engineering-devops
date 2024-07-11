@@ -1,0 +1,3 @@
+frontend web-frontend
+	bind *:443 ssl crt /etc/haproxy/certs/www.toughbyte.tech.pem
+	redirect scheme https code 301 if !{ ssl_fc }
