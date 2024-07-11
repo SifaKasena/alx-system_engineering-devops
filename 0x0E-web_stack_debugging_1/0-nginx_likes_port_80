@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Debug nginx port listening
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
