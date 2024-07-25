@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Run nginx as nginx on port 8080
+chmod uga+rw /etc/nginx/nginx.conf
+sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default
+pkill apache2
+su -c "service nginx start" -s /bin/bash nginx
